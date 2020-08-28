@@ -1,0 +1,21 @@
+NET "TX" LOC = L12;
+NET "RX" LOC = K14;
+
+NET "BUTTON" LOC = P4;
+
+NET "CLK27M" LOC = V10;
+
+NET "canal_A" LOC = B4;
+NET "canal_A" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "canal_B" LOC = F13;
+NET "reset" LOC = P12;
+
+#NET "DIPSW[0]" LOC = D14;
+#NET "DIPSW[1]" LOC = E12;
+#NET "DIPSW[2]" LOC = F12;
+#NET "DIPSW[3]" LOC = V13;
+
+NET "LEDS[0]" LOC = E13;
+NET "LEDS[1]" LOC = C14;
+NET "LEDS[2]" LOC = C4;
+NET "LEDS[3]" LOC = A4;
